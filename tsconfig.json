@@ -8,6 +8,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
+    "declaration": true,
     "skipLibCheck": true,
     "sourceMap": true,
     "strict": true,
@@ -15,5 +16,5 @@
     "preserveConstEnums": false,
     "isolatedModules": false
   },
-  "include": ["src/lib/**/*"]
+  "include": ["src/lib/**/*", "src/lib/demo.ts"]
 }
